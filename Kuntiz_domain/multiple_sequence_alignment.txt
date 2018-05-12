@@ -1,0 +1,111 @@
+CLUSTAL W (1.83) multiple sequence alignment
+
+1AAL_A          --------------------------------------------------
+1BIK_A          A------VLPQE--------------------------------------
+1BPI_A          --------------------------------------------------
+1BPT_A          --------------------------------------------------
+1DTX_A          --------------------------------------------------
+1G6X_A          --------------------------------------------------
+1KTH_A          --------------------------------------------------
+1NAG_A          --------------------------------------------------
+1Y62_A          K-------------------------------------------------
+3AUC_A          --------------------------------------------------
+3AUH_A          --------------------------------------------------
+3OFW_A          EA------------------------------------------------
+3WNY_A          --------------------------------------------------
+5EZD_A          KRGIDLKVQPQEPLVLKDVENTDWRLLRGDTDVRVERKDPNQVELWGLKE
+5JB4_A          --------------------------------------------------
+5JB5_A          --------------------------------------------------
+5JB6_A          --------------------------------------------------
+5JB7_A          --------------------------------------------------
+5M4V_A          --------------------------------------------------
+7PTI_A          --------------------------------------------------
+                                                                  
+
+1AAL_A          ------------------------------------------RP--DFCL
+1BIK_A          ---------------------------EEGSGGGQLVTEVTKKE--DSCQ
+1BPI_A          ------------------------------------------RP--DFCL
+1BPT_A          ------------------------------------------RP--DFCL
+1DTX_A          ------------------------------------------EPRRKLCI
+1G6X_A          ------------------------------------------RP--DFCL
+1KTH_A          ------------------------------------------ET--DICK
+1NAG_A          ------------------------------------------RP--DFCL
+1Y62_A          -----------------------------------------DRP--SLCD
+3AUC_A          ------------------------------------------RP--AFCL
+3AUH_A          ------------------------------------------RP--AFCL
+3OFW_A          ------------------------------------------EA--SICS
+3WNY_A          ------------------------------------------RP--AFCL
+5EZD_A          GTYLFQLTVTSSDHPEDTANVTVTVLST------------KQTE--DYCL
+5JB4_A          ------------------------------------------RP--AFCL
+5JB5_A          ------------------------------------------RP--AFCL
+5JB6_A          ------------------------------------------RP--AFCL
+5JB7_A          ------------------------------------------RP--AFCL
+5M4V_A          ------------------------------------------RP--SFCN
+7PTI_A          ------------------------------------------RP--DFCL
+                                                                * 
+
+1AAL_A          EPPYTGPCKARIIRYFYNAKAGLVQTFVYGGCRAKRNNFKSAEDAMRTCG
+1BIK_A          LGYSAGPCMGMTSRYFYNGTSMACETFQYGGCMGNGNNFVTEKECLQTCR
+1BPI_A          EPPYTGPCKARIIRYFYNAKAGLCQTFVYGGCRAKRNNFKSAEDCMRTCG
+1BPT_A          EPPYTGPCKARIIRYFANAKAGLCQTFVYGGCRAKRNNFKSAEDCMRTCG
+1DTX_A          LHRNPGRCYDKIPAFYYNQKKKQCERFDWSGCGGNSNRFKTIEECRRTCI
+1G6X_A          EPPYAGACRARIIRYFYNAKAGLCQTFVYGGCRAKRNNFKSAEDCLRTCG
+1KTH_A          LPKDEGTCRDFILKWYYDPNTKSCARFWYGGCGGNENKFGSQKECEKVCA
+1NAG_A          EPPYTGPCKARIIRYFYNAKAGLCQTFVYGGCRAKRGNFKSAEDCMRTCG
+1Y62_A          LPADSGSGTKAEKRIYYNSARKQCLRFDYTGQGGNENNFRRTYDCQRTCL
+3AUC_A          EPPYAGPGKARIIRYFYNAAAGAAQTFVYGGVRAKRNNFASAADALAACA
+3AUH_A          EPPYAGPGKARIIRYFYNAAAGAAQAFVYGGVRAKRNNFASAADALAACA
+3OFW_A          EPKKVGRCKGYFPRFYFDSETGKCTPFIYGGCGGNGNNFETLHQCRAICR
+3WNY_A          EPPYAGPGKARIIRYFYNAKAGAAQAFVYGGVRAKRNNFASAADALAACA
+5EZD_A          ASNKVGRCRGSFPRWYYDPTEQICKSFVYGGCLGNKNNYLREEECILACR
+5JB4_A          EPPYAGPGAAAIIRYFYNAAAGAAQAFVYGGVRAKRNNFASAADALAACA
+5JB5_A          EPPYAGPGAAAIIRYFYNAAAGAAQAFVYGGVAAKRNNFASAADALAACA
+5JB6_A          EAPYAGPGAAAIIRYFYNAAAGAAQAFVYGGVAAKRNNFASAADALAACA
+5JB7_A          EAPYAGPGAAAIIRYFYNAAAGAAQAFVYGGVAAKRNNFASAAAALAACA
+5M4V_A          LPVKPGPCKAFFSAFYYSQKTNKCHSFTYGGCKGNANRFSTLEKCRRTCV
+7PTI_A          EPPYTGPCKARIIRYFYNAKAGLAQTFVYGGCRAKRNNFKSAEDAMRTCG
+                     *         : .        * : *  .: ..:     .   * 
+
+1AAL_A          G-------------------------------------------------
+1BIK_A          TVAACNLPIVRGPCRAFIQLWAFDAVKGKCVLFPYGGCQGNGNKFYSEKE
+1BPI_A          G-------------------------------------------------
+1BPT_A          G-------------------------------------------------
+1DTX_A          --------------------------------------------------
+1G6X_A          G-------------------------------------------------
+1KTH_A          P-------------------------------------------------
+1NAG_A          G-------------------------------------------------
+1Y62_A          Y-------------------------------------------------
+3AUC_A          AAGGS---------------------------------------------
+3AUH_A          AAGG----------------------------------------------
+3OFW_A          L-------------------------------------------------
+3WNY_A          AAGG----------------------------------------------
+5EZD_A          GVDHH---------------------------------------------
+5JB4_A          A-------------------------------------------------
+5JB5_A          A-------------------------------------------------
+5JB6_A          A-------------------------------------------------
+5JB7_A          A-------------------------------------------------
+5M4V_A          --------------------------------------------------
+7PTI_A          G-------------------------------------------------
+                                                                  
+
+1AAL_A          -------------------A
+1BIK_A          CREYCGVPGDGDEELLRFSN
+1BPI_A          -------------------A
+1BPT_A          -------------------A
+1DTX_A          -------------------G
+1G6X_A          -------------------A
+1KTH_A          -------------------V
+1NAG_A          -------------------A
+1Y62_A          -------------------T
+3AUC_A          ----------------SSSS
+3AUH_A          -----------------RRR
+3OFW_A          -------------------G
+3WNY_A          -----------------KKK
+5EZD_A          ----------------HHHH
+5JB4_A          -------------------A
+5JB5_A          -------------------A
+5JB6_A          -------------------A
+5JB7_A          -------------------A
+5M4V_A          -------------------G
+7PTI_A          -------------------A
+                                    

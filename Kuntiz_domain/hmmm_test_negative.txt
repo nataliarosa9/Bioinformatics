@@ -1,0 +1,114 @@
+# hmmsearch :: search profile(s) against a sequence database
+# HMMER 3.1b2 (February 2015); http://hmmer.org/
+# Copyright (C) 2015 Howard Hughes Medical Institute.
+# Freely distributed under the GNU General Public License (GPLv3).
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+# query HMM file:                  output.hmm
+# target sequence database:        non_kunitz.fasta
+# show alignments in output:       no
+# Max sensitivity mode:            on [all heuristic filters off]
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Query:       structure_align  [M=74]
+Scores for complete sequences (score includes all domains):
+   --- full sequence ---   --- best 1 domain ---    -#dom-
+    E-value  score  bias    E-value  score  bias    exp  N  Sequence                 Description
+    ------- ------ -----    ------- ------ -----   ---- --  --------                 -----------
+  ------ inclusion threshold ------
+       0.18   13.1   5.9        0.2   12.9   5.9    1.2  1  sp|P36235|DISG_ORNMO      Disagregin OS=Ornithodoros moubata 
+          4    8.8   2.3        6.3    8.2   2.3    1.5  1  sp|B8XH45|KA23L_BUTOS     Potassium channel toxin alpha-KTx T
+        4.6    8.6   2.2        5.7    8.3   2.0    1.4  1  sp|P0CH57|NDB51_MESEU     Potassium channel toxin MeuTXKbeta3
+        4.6    8.6   1.1        5.5    8.4   1.1    1.2  1  sp|B8XH47|KA23M_BUTOS     Potassium channel toxin alpha-KTx T
+        4.7    8.6   2.9        7.6    7.9   2.9    1.3  1  sp|B8XH30|KA23K_BUTOS     Potassium channel toxin alpha-KTx T
+        5.1    8.5   0.0        5.9    8.3   0.0    1.2  1  sp|P07081|Y04C_BPT4       Uncharacterized 9.2 kDa protein in 
+        6.7    8.1   0.4        8.8    7.7   0.4    1.3  1  sp|Q0GY45|KBX2_TITTR      Potassium channel toxin TtrKIK OS=T
+        7.1    8.0   0.2        7.2    8.0   0.2    1.2  1  sp|P0CI42|KBX23_LYCMC     Neurotoxin beta-KTx 14.3 OS=Lychas 
+        7.1    8.0   0.2        7.3    8.0   0.2    1.2  1  sp|C6ZH27|KBX27_LYCMC     Neurotoxin beta-KTx 17 OS=Lychas mu
+        7.3    8.0   6.8         12    7.3   6.8    1.4  1  sp|P69163|MT22_BRAJU      Metallothionein-like protein type 2
+        7.3    8.0   6.8         12    7.3   6.8    1.4  1  sp|P69164|MT2_BRACM       Metallothionein-like protein type 2
+        9.1    7.7   3.5         11    7.4   3.3    1.4  1  sp|P83417|MRN1_MEGVI      Megourin-1 OS=Megoura viciae OX=112
+        9.7    7.6   0.4         13    7.2   0.4    1.3  1  sp|P86822|KBX2_TITSE      Ts19 OS=Tityus serrulatus OX=6887 P
+
+
+Domain annotation for each sequence:
+>> sp|P36235|DISG_ORNMO  Disagregin OS=Ornithodoros moubata OX=6938 PE=1 SV=1
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   12.9   5.9   6.1e-05       0.2      12      65 ..       3      59 ..       1      60 [] 0.76
+
+>> sp|B8XH45|KA23L_BUTOS  Potassium channel toxin alpha-KTx Tx773 OS=Buthus occitanus israelis OX=539894 PE=2 SV=1
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?    8.2   2.3    0.0019       6.3      12      31 ..      35      54 ..      21      61 .. 0.83
+
+>> sp|P0CH57|NDB51_MESEU  Potassium channel toxin MeuTXKbeta3-meucin-24 OS=Mesobuthus eupeus OX=34648 PE=1 SV=1
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?    8.3   2.0    0.0017       5.7       7      26 ..      62      81 ..      33      85 .. 0.87
+
+>> sp|B8XH47|KA23M_BUTOS  Potassium channel toxin alpha-KTx Tx790 OS=Buthus occitanus israelis OX=539894 PE=2 SV=1
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?    8.4   1.1    0.0016       5.5      11      33 ..      34      57 ..      21      62 .] 0.79
+
+>> sp|B8XH30|KA23K_BUTOS  Potassium channel toxin alpha-KTx Tx308 OS=Buthus occitanus israelis OX=539894 PE=2 SV=1
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?    7.9   2.9    0.0023       7.6      11      34 ..      34      58 ..      24      61 .. 0.78
+
+>> sp|P07081|Y04C_BPT4  Uncharacterized 9.2 kDa protein in Gp55-nrdG intergenic region OS=Enterobacteria phage T4 OX=106
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?    8.3   0.0    0.0018       5.9       9      40 ..      14      45 ..       4      66 .. 0.87
+
+>> sp|Q0GY45|KBX2_TITTR  Potassium channel toxin TtrKIK OS=Tityus trivittatus OX=369776 PE=2 SV=1
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?    7.7   0.4    0.0026       8.8       7      26 ..      65      84 ..      36      87 .. 0.87
+
+>> sp|P0CI42|KBX23_LYCMC  Neurotoxin beta-KTx 14.3 OS=Lychas mucronatus OX=172552 PE=2 SV=1
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?    8.0   0.2    0.0021       7.2       7      25 ..      56      74 ..      19      78 .. 0.89
+
+>> sp|C6ZH27|KBX27_LYCMC  Neurotoxin beta-KTx 17 OS=Lychas mucronatus OX=172552 PE=3 SV=2
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?    8.0   0.2    0.0022       7.3       7      25 ..      56      74 ..      20      78 .. 0.89
+
+>> sp|P69163|MT22_BRAJU  Metallothionein-like protein type 2, MT2-18 OS=Brassica juncea OX=3707 PE=3 SV=1
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?    7.3   6.8    0.0035        12      14      62 ..      14      61 ..      10      76 .. 0.83
+
+>> sp|P69164|MT2_BRACM  Metallothionein-like protein type 2 OS=Brassica campestris OX=3711 PE=3 SV=1
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?    7.3   6.8    0.0035        12      14      62 ..      14      61 ..      10      76 .. 0.83
+
+>> sp|P83417|MRN1_MEGVI  Megourin-1 OS=Megoura viciae OX=112273 PE=1 SV=2
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?    7.4   3.3    0.0033        11      46      68 ..      12      34 ..       6      59 .. 0.88
+
+>> sp|P86822|KBX2_TITSE  Ts19 OS=Tityus serrulatus OX=6887 PE=1 SV=2
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?    7.2   0.4    0.0039        13       8      26 ..      66      84 ..      36      87 .. 0.86
+
+
+
+Internal pipeline statistics summary:
+-------------------------------------
+Query model(s):                              1  (74 nodes)
+Target sequences:                        43690  (3456593 residues searched)
+Passed MSV filter:                     43690  (1); expected 43690.0 (1)
+Passed bias filter:                    43690  (1); expected 43690.0 (1)
+Passed Vit filter:                     43690  (1); expected 43690.0 (1)
+Passed Fwd filter:                     43690  (1); expected 43690.0 (1)
+Initial search space (Z):              43690  [actual number of targets]
+Domain search space  (domZ):              13  [number of targets reported over threshold]
+# CPU time: 27.87u 0.11s 00:00:27.98 Elapsed: 00:00:07.32
+# Mc/sec: 34.94
+//
+[ok]

@@ -1,0 +1,56 @@
+# hmmsearch :: search profile(s) against a sequence database
+# HMMER 3.1b2 (February 2015); http://hmmer.org/
+# Copyright (C) 2015 Howard Hughes Medical Institute.
+# Freely distributed under the GNU General Public License (GPLv3).
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+# query HMM file:                  output.hmm
+# target sequence database:        best_positive_evalue_seq.txt
+# output directed to file:         logBestEvaluePositive.txt
+# show alignments in output:       no
+# sequence reporting threshold:    E-value <= 1000
+# Max sensitivity mode:            on [all heuristic filters off]
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Query:       structure_align  [M=74]
+Scores for complete sequences (score includes all domains):
+   --- full sequence ---   --- best 1 domain ---    -#dom-
+    E-value  score  bias    E-value  score  bias    exp  N  Sequence            Description
+    ------- ------ -----    ------- ------ -----   ---- --  --------            -----------
+     3e-187  593.5 171.9    3.9e-21   61.3   8.1   15.2 14  sp|Q868Z9|PPN_DROME  
+
+
+Domain annotation for each sequence:
+>> sp|Q868Z9|PPN_DROME  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   -1.7   0.1      0.18      0.18      22      38 ..     150     166 ..     146     168 .. 0.86
+   2 ?   -2.9   5.3       0.4       0.4      29      47 ..    1493    1511 ..    1471    1516 .. 0.72
+   3 !   50.6  10.3   8.5e-18   8.5e-18      11      66 ..    1609    1664 ..    1601    1669 .. 0.92
+   4 !   60.5   6.1   6.9e-21   6.9e-21      12      66 ..    1669    1723 ..    1663    1728 .. 0.94
+   5 !   61.3   8.1   3.9e-21   3.9e-21      13      66 ..    1729    1782 ..    1723    1789 .. 0.95
+   6 !   49.2   2.8   2.3e-17   2.3e-17      11      65 ..    1787    1841 ..    1784    1847 .. 0.94
+   7 !   60.7   5.9   5.7e-21   5.7e-21      11      65 ..    1846    1900 ..    1841    1906 .. 0.95
+   8 !   53.2   2.3   1.3e-18   1.3e-18       9      65 ..    1917    1973 ..    1908    1977 .. 0.94
+   9 !   58.3   2.5   3.2e-20   3.2e-20      12      65 ..    1999    2052 ..    1989    2058 .. 0.94
+  10 !   56.2  10.5   1.5e-19   1.5e-19      11      66 ..    2068    2123 ..    2062    2127 .. 0.93
+  11 !   58.5   2.5   2.9e-20   2.9e-20      12      66 ..    2126    2180 ..    2123    2184 .. 0.95
+  12 !   57.5   7.8   5.8e-20   5.8e-20      11      66 ..    2191    2246 ..    2181    2250 .. 0.94
+  13 !   54.8   4.9   4.1e-19   4.1e-19      11      66 ..    2250    2305 ..    2246    2312 .. 0.95
+  14 !   53.4   4.1   1.1e-18   1.1e-18      11      66 ..    2315    2373 ..    2308    2380 .. 0.90
+
+
+
+Internal pipeline statistics summary:
+-------------------------------------
+Query model(s):                              1  (74 nodes)
+Target sequences:                            1  (2898 residues searched)
+Passed MSV filter:                         1  (1); expected 1.0 (1)
+Passed bias filter:                        1  (1); expected 1.0 (1)
+Passed Vit filter:                         1  (1); expected 1.0 (1)
+Passed Fwd filter:                         1  (1); expected 1.0 (1)
+Initial search space (Z):                  1  [actual number of targets]
+Domain search space  (domZ):               1  [number of targets reported over threshold]
+# CPU time: 0.05u 0.00s 00:00:00.05 Elapsed: 00:00:00.06
+# Mc/sec: 3.57
+//
+[ok]
